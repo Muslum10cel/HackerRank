@@ -24,11 +24,9 @@ public class FindDigits {
                     if (n % (temp % 10) == 0) {
                         count++;
                     }
-                    temp /= 10;
                 } catch (Exception e) {
-                    temp /= 10;
                 }
-
+                temp /= 10;
             }
             System.out.println(count);
         }
