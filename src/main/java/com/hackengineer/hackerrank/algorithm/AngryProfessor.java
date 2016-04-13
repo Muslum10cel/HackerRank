@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.hackengineer.hackerrank;
+package com.hackengineer.hackerrank.algorithm;
 
 import java.util.Scanner;
 

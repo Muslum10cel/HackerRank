@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.hackengineer.hackerrank;
+package com.hackengineer.hackerrank.algorithm;
 
 /**
  *
@@ -34,5 +34,8 @@ package com.hackengineer.hackerrank;
  * @author muslumoncel
  */
 public class LisaWorkBook {
-    
+
+    public static void Solution() {
+        
+    }
 }
