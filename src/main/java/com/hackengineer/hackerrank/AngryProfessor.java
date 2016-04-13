@@ -8,6 +8,14 @@ package com.hackengineer.hackerrank;
 import java.util.Scanner;
 
 /**
+ * 
+ * Definition of Problem : 
+ * 
+ * A Discrete Mathematics professor has a class of NN students. Frustrated with
+ * their lack of discipline, he decides to cancel class if fewer than KK
+ * students are present when class starts.
+ *
+ * Given the arrival time of each student, determine if the class is canceled.
  *
  * @author muslumoncel
  */
