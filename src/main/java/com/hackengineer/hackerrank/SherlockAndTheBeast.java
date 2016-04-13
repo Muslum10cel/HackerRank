@@ -30,7 +30,9 @@ public class SherlockAndTheBeast {
                     System.out.println("33333");
                     break;
                 default:
-                   
+                   /**
+                    * will try later
+                    */
             }
         }
     }
