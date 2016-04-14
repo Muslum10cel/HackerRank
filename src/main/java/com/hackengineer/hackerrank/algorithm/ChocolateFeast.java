@@ -47,6 +47,5 @@ class ChocolateFeast {
         choc.stream().forEach((ch) -> {
             System.out.println(ch);
         });
-
     }
 }
