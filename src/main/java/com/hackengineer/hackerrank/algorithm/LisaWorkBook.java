@@ -5,6 +5,10 @@
  */
 package com.hackengineer.hackerrank.algorithm;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 /**
  *
  * Problem Definition :
@@ -36,6 +40,24 @@ package com.hackengineer.hackerrank.algorithm;
 public class LisaWorkBook {
 
     public static void Solution() {
-        
+        Scanner scanner = new Scanner(System.in);
+        int count = 0, page = 1;
+        int n = scanner.nextInt();
+        int k = scanner.nextInt();
+        for (int i = 0; i < n; i++) {
+            int temp = scanner.nextInt();
+            for (int x = 1; x <= temp; x++) {
+                if (x == page) {
+                    count++;
+                }
+                if (x % k == 0) {
+                    page++;
+                }
+            }
+            if (temp % k != 0) {
+                page++;
+            }
+        }
+        System.out.println(count);
     }
 }
