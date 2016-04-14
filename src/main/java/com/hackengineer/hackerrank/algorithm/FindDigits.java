@@ -19,6 +19,37 @@ import java.util.Scanner;
  * Note: Each digit is considered to be unique, so each occurrence of the same
  * evenly divisible digit should be counted (i.e.: for N=111, the answer is 3).
  *
+ * --- INPUT FORMAT ---
+ *
+ * The first line is an integer, T, indicating the number of test cases. The T
+ * subsequent lines each contain an integer, N.
+ *
+ * --- OUTPUT FORMAT ---
+ *
+ * For every test case, count and print (on a new line) the number of digits in
+ * N that are able to evenly divide N.
+ *
+ * --- CONSTRAINTS ---
+ *
+ * 1<=T≤15
+ *
+ * 0<N<(10^9)
+ *
+ *
+ * 
+ * --- SAMPLE INPUT ---
+ *
+ * 2
+ * 12 
+ * 1012
+ *
+ * --- SAMPLE OUTPUT ---
+ *
+ * 2
+ * 3
+ *
+ *
+ * 
  * @author muslumoncel
  */
 public class FindDigits {

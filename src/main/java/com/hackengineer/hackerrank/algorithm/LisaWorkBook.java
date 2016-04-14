@@ -33,6 +33,34 @@ import java.util.Scanner;
  * same as the page number where it's located. Given the details for Lisa's
  * workbook, can you count its number of special problems?
  *
+ * --- INPUT FORMAT ---
+ *
+ * The first line contains two integers n and k -> the number of chapters and
+ * the maximum number of problems per page respectively. The second line
+ * contains n integers t1,t2,...,tn, where ti denotes the number of problems in
+ * the i-th chapter.
+ *
+ * --- OUTPUT FORMAT ---
+ *
+ * Print the number of special problems in Lisa's workbook.
+ *
+ * --- CONSTRAINTS ---
+ *
+ * 1<=n,k,ti≤100
+ *
+ *
+ *
+ * --- SAMPLE INPUT ---
+ *
+ * 5 3
+ * 4 2 6 1 10
+ *
+ * --- SAMPLE OUTPUT ---
+ *
+ * 4
+ *
+ *
+ *
  * @author muslumoncel
  */
 public class LisaWorkBook {

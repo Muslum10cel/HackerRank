@@ -18,6 +18,41 @@ import java.util.Scanner;
  * wrappers he gives to the store, he gets one chocolate for free. How many
  * chocolates does Bob get to eat?
  *
+ * --- INPUT FORMAT ---
+ *
+ * The first line contains the number of test cases, T. T lines follow, each of
+ * which contains three integers, N, C, and M.
+ *
+ * --- OUTPUT FORMAT ---
+ *
+ * Print the total number of chocolates Bob eats.
+ *
+ * --- CONSTRAINTS ---
+ *
+ * 1<=T<=1000
+ *
+ * 2≤N≤10^5
+ *
+ * 1≤C≤N
+ *
+ * 2≤M≤N
+ *
+ *
+ *
+ * --- SAMPLE INPUT ---
+ *
+ * 3
+ * 10 2 5 
+ * 12 4 4 
+ * 6 2 2
+ *
+ * --- SAMPLE OUTPUT ---
+ * 6
+ * 3
+ * 5
+ * 
+ *
+ * 
  * @author muslumoncel
  */
 class ChocolateFeast {

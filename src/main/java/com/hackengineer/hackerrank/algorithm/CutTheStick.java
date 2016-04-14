@@ -32,6 +32,39 @@ import java.util.Scanner;
  * Note: For each cut operation, you have to recalculate the length of smallest
  * sticks (excluding zero-length sticks).
  *
+ * --- INPUT FORMAT ---
+ *
+ * The first line contains a single integer N. The next line contains N
+ * integers: a0, a1,...aN-1 separated by space, where ai represents the length
+ * of ith stick.
+ *
+ * --- OUTPUT FORMAT ---
+ *
+ * For each operation, print the number of sticks that are cut, on separate
+ * lines.
+ *
+ * --- CONSTRAINTS ---
+ *
+ * 1 <= N ≤ 1000
+ *
+ * 1 ≤ ai ≤ 1000
+ *
+ *
+ *
+ * --- SAMPLE INPUT ---
+ *
+ * 6
+ * 5 4 4 2 2 8
+ *
+ * --- SAMPLE OUTPUT ---
+ *
+ * 6
+ * 4
+ * 2
+ * 1
+ * 
+ * 
+ *
  * @author muslumoncel
  */
 public class CutTheStick {
