@@ -5,6 +5,8 @@
  */
 package com.hackengineer.hackerrank.algorithm;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -22,21 +24,29 @@ class ChocolateFeast {
 
     public static void Solution() {
         Scanner scanner = new Scanner(System.in);
+        List<Integer> choc = new ArrayList<>();
         int T = scanner.nextInt();
         for (int i = 0; i < T; i++) {
             int N = scanner.nextInt();
             int C = scanner.nextInt();
             int M = scanner.nextInt();
-            if (N / C - M < 0) {
-                System.out.println(N / C);
-            } else if (N / C - M == 0) {
-                System.out.println(N / C + 1);
+            if (N / C < M) {
+                choc.add(N / C);
+            } else if (N / C == M) {
+                choc.add(N / C + 1);
             } else {
-                /**
-                 * will be solved later
-                 */
+                int count = 0, temp = N / C;
+                while (temp >= M) {
+                    temp -= M;
+                    ++temp;
+                    ++count;
+                }
+                choc.add((N / C) + count);
             }
         }
+        choc.stream().forEach((ch) -> {
+            System.out.println(ch);
+        });
 
     }
 }
