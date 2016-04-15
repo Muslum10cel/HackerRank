@@ -5,7 +5,12 @@
  */
 package com.hackengineer.hackerrank.algorithm;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -17,8 +22,8 @@ import java.util.Scanner;
  *
  * Given the arrival time of each student, determine if the class is canceled.
  *
- * 
- * 
+ *
+ *
  * --- INPUT FORMAT ---
  *
  * The first line of input contains T, the number of test cases.
@@ -51,22 +56,27 @@ import java.util.Scanner;
  * to have entered before the class started.
  *
  *
- * 
+ *
  * --- SAMPLE INPUT ---
  *
  * 2
+ *
  * 4 3
+ *
  * -1 -3 4 2
- * 4 2 
+ *
+ * 4 2
+ *
  * 0 -1 2 1
  *
  * --- SAMPLE OUTPUT ---
- * 
+ *
  * YES
+ *
  * NO
  *
  *
- * 
+ *
  * @author muslumoncel
  */
 public class AngryProfessor {
