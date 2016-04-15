@@ -63,12 +63,15 @@ import java.util.Scanner;
  *
  * --- SAMPLE OUTPUT ---
  *
- * -1 
+ * -1
+ *
  * 555
+ *
  * 33333
+ *
  * 55555533333
- * 
- * 
+ *
+ *
  *
  * @author muslumoncel
  */
