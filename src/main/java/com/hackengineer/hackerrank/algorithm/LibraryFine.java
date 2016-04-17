@@ -105,8 +105,4 @@ public class LibraryFine {
             System.out.println(10000);
         }
     }
-
-    public static void main(String[] args) {
-        Solution();
-    }
 }
