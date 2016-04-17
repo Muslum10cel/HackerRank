@@ -33,8 +33,6 @@ import java.util.Scanner;
  *
  *
  * @author muslumoncel
- *
- * ---> Extra Info : We got result has 103000 digit :)
  */
 public class ExtraLongFactorial {
 
