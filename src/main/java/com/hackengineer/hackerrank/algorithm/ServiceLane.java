@@ -31,9 +31,11 @@ import java.util.Scanner;
  * he can pass through at most 1000 segments, including the entry and exit
  * segments.
  *
- * If width[k]=1, only the bike can pass through the kth segment. If width[k]=2,
- * the bike and the car can pass through the kth segment. If width[k]=3, all
- * three vehicles can pass through the kth segment.
+ * 1-) If width[k]=1, only the bike can pass through the kth segment.
+ *
+ * 2-) If width[k]=2, the bike and the car can pass through the kth segment.
+ *
+ * 3-) If width[k]=3, all three vehicles can pass through the kth segment.
  *
  *
  * Given the entry and exit point of Calvin's vehicle in the service lane,
@@ -67,8 +69,8 @@ import java.util.Scanner;
  *
  * 1≤width[k]≤3,where 0≤k<N
  *
- * 
- * 
+ *
+ *
  * --- SAMPLE INPUT ---
  *
  * 8 5
