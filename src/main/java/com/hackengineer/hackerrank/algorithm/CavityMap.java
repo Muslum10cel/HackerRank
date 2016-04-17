@@ -81,7 +81,6 @@ public class CavityMap {
                     temp[i][j] = line[j];
                 } catch (Exception e) {
                 }
-
             }
         }
 
@@ -98,6 +97,5 @@ public class CavityMap {
             }
             System.out.println();
         }
-
     }
 }
