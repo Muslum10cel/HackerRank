@@ -15,18 +15,18 @@ import java.util.Scanner;
  * grouped into chapters.
  *
  *
- * There are n chapters in Lisa's workbook, numbered from 1 to n.
+ * 1-) There are n chapters in Lisa's workbook, numbered from 1 to n.
  *
- * The i-th chapter has ti problems, numbered from 1 to ti. Each page can hold
- * up to k problems.
+ * 2-) The i-th chapter has ti problems, numbered from 1 to ti. Each page can
+ * hold up to k problems.
  *
- * There are no empty pages or unnecessary spaces, so only the last page of a
- * chapter may contain fewer than k problems.
+ * 3-) There are no empty pages or unnecessary spaces, so only the last page of
+ * a chapter may contain fewer than k problems.
  *
- * Each new chapter starts on a new page, so a page will never contain problems
- * from more than one chapter.
+ * 4-) Each new chapter starts on a new page, so a page will never contain
+ * problems from more than one chapter.
  *
- * The page number indexing starts at 1.
+ * 5-) The page number indexing starts at 1.
  *
  *
  * Lisa believes a problem to be special if its index (within a chapter) is the
