@@ -67,13 +67,37 @@ import java.util.Scanner;
  */
 public class CavityMap {
 
+    private static final Byte[][] map = new Byte[101][101];
+    private static final String[][] temp = new String[101][101];
+
     public static void Solution() {
         Scanner scanner = new Scanner(System.in);
         byte n = scanner.nextByte(), i, j;
+        for (i = 0; i < n; i++) {
+            String[] line = scanner.next().trim().split("");
+            for (j = 0; j < n; j++) {
+                try {
+                    map[i][j] = Byte.parseByte(line[j]);
+                    temp[i][j] = line[j];
+                } catch (Exception e) {
+                }
 
-    }
+            }
+        }
 
-    public static void main(String[] args) {
-        Solution();
+        for (i = 1; i < n - 1; i++) {
+            for (j = 1; j < n - 1; j++) {
+                if (map[i][j - 1] < map[i][j] && map[i - 1][j] < map[i][j] && map[i][j + 1] < map[i][j] && map[i + 1][j] < map[i][j]) {
+                    temp[i][j] = "X";
+                }
+            }
+        }
+        for (i = 0; i < n; i++) {
+            for (j = 0; j < n; j++) {
+                System.out.print(temp[i][j]);
+            }
+            System.out.println();
+        }
+
     }
 }
