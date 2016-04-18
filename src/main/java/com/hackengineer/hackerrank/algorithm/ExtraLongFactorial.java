@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * Definition of Problem :
  *
- * You are given an integer NN. Print the factorial of this number.
+ * You are given an integer N. Print the factorial of this number.
  *
  * N!=N×(N−1)×(N−2)×⋯×3×2×1
  *
