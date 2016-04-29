@@ -5,6 +5,7 @@
  */
 package com.hackengineer.hackerrank.algorithm;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
